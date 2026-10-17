@@ -1,0 +1,5 @@
+- Built a procedural forest warden: hunched biped, 4.77 m tall (antlers included), grounded at Y=0, about 25.7k triangles, 8.2 MB single GLB.
+- Stone slabs and boulders (plates and faceted ellipsoids) for shoulders, chest, brow mask, forearms, shins and feet. Braided bark tubes make the root anatomy of the arms, legs and torso. Moss patches, ivory claws and fungal shelves, amber eyes and branching bark antlers.
+- All four PBR sets (stone, bark, moss, ivory: albedo, normal, roughness) are embedded; Khronos validation reports 0 errors and 0 warnings.
+- Skeleton of 12 joints (Root, Hips, Chest, Head, and upper arm, forearm, thigh and shin on each side). One clip, "attack", 1.2 s: right-arm wind-up, heavy slash with torso twist at about 0.6 s, recovery back to the rest pose.
+- 3 build/render cycles: 2 refinements after the first blockout. Fixed the height (5.87 m to 4.6-4.8 m), exposed more wood, enlarged the eyes and head, and enlarged and curved the claws and moss.

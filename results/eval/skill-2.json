@@ -1,0 +1,84 @@
+{
+ "sourceBytes": 8065548,
+ "triangles": 17346,
+ "errors": 0,
+ "warnings": 0,
+ "textures": 12,
+ "joints": 16,
+ "clips": [
+  {
+   "name": "attack",
+   "duration": 1.2
+  }
+ ],
+ "materials": [
+  {
+   "name": "bark",
+   "baseColor": true,
+   "normal": true,
+   "roughness": true
+  },
+  {
+   "name": "stone",
+   "baseColor": true,
+   "normal": true,
+   "roughness": true
+  },
+  {
+   "name": "moss",
+   "baseColor": true,
+   "normal": true,
+   "roughness": true
+  },
+  {
+   "name": "eye",
+   "baseColor": false,
+   "normal": false,
+   "roughness": false
+  },
+  {
+   "name": "ivory",
+   "baseColor": true,
+   "normal": true,
+   "roughness": true
+  }
+ ],
+ "tiles": [
+  {
+   "label": "front",
+   "time": 0,
+   "yaw": 0,
+   "blank": false
+  },
+  {
+   "label": "left",
+   "time": 0,
+   "yaw": 1.5707963267948966,
+   "blank": false
+  },
+  {
+   "label": "back",
+   "time": 0,
+   "yaw": 3.141592653589793,
+   "blank": false
+  },
+  {
+   "label": "t=0.36s",
+   "time": 0.36,
+   "yaw": -0.6,
+   "blank": false
+  },
+  {
+   "label": "t=0.66s",
+   "time": 0.66,
+   "yaw": -0.6,
+   "blank": false
+  },
+  {
+   "label": "t=1.02s",
+   "time": 1.02,
+   "yaw": -0.6,
+   "blank": false
+  }
+ ]
+}

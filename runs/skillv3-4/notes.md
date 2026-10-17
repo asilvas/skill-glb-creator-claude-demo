@@ -1,0 +1,5 @@
+- Built a hunched bipedal forest warden procedurally: braided bark limbs/torso, fractured stone plates and shoulder boulders, moss patches, ivory claws and fungal shelves, amber eyes, branching antlers.
+- Textured with stone/bark/moss/ivory PBR maps (albedo, normal, roughness) embedded in the GLB; 5 materials, 12 textures, ~25.7k triangles, Khronos 0 errors/0 warnings.
+- 18-joint skeleton (Root, Hips, Spine, Chest, Neck, Head, shoulders/elbows/hands, thighs/knees/feet); one clip "attack", 1.2 s: right-arm raise with torso wind-up, heavy slam at ~0.68 s, recovery to rest pose at 1.2 s.
+- Height 4.61 m, grounded at minY=0 (uniform a.scale(.78) applied).
+- 3 visual iterations (blockout too stone-heavy/tall -> rebalanced bark/moss and scaled -> fixed hidden eyes, bigger claws). Texture albedo renders darker than the reference; bark/claw curvature is simpler than the concept art.

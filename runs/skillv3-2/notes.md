@@ -1,0 +1,5 @@
+- Built a procedural forest warden in the glb-creator recipe (glb-creator/tmp/monster.ts): hulking hunched biped, bark-braid torso/limbs, fractured stone plates and boulder shoulders, moss patches, ivory claws and fungal shelves, amber eyes, branching antlers.
+- Textured with the supplied stone/bark/moss/ivory PBR maps (albedo, normal, roughness) embedded in a single GLB; 12 textures, 0 Khronos errors/warnings.
+- Skeleton of 18 joints (hips/spine/chest/neck/head, shoulders/elbows/hands, thighs/shins/feet); one clip "attack", 1.2 s: wind-up, heavy right-arm slash at ~0.6 s, recovery to rest pose.
+- Height 4.68 m, grounded at Y=0.
+- 3 visual iterations (contact sheets compared to reference): fixed over-height (scaled 0.84), exposed more bark, enlarged moss/eyes/claws, shrank shoulders and forearm plates.

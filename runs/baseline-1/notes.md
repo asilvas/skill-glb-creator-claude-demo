@@ -1,0 +1,6 @@
+- Built procedurally in Blender 5.2 headless (`build.py`): one skinned mesh (about 11k tris) with faceted gray stone plates, twisted/braided bark limbs and torso (helical strand tubes), moss caps, ivory curved claws and fungal shelves, amber emissive eyes, and branching bark antlers.
+- Materials use the prepared stone/bark/moss/ivory albedo, normal and roughness maps. They are embedded in the GLB, with world-scale box/cylindrical UVs baked into the mesh.
+- Rig: 20 bones (root, pelvis, spine, chest, neck, head, shoulders, upper arm, forearm, hand, thigh, shin, foot), with smooth weight blends at the joints.
+- One clip, "attack" (1.2 s at 25 fps): wind-up (coil and raise right arm), heavy diagonal slash at impact, follow-through, then return to the rest pose at the end.
+- The creature is grounded at Y=0 and is about 4.75 m tall including antlers. Export is a single binary GLB.
+- Visual iterations: 5 render passes (v1-v5, front, side, back and animation frames). Changes between passes: less moss and stone, thicker bark limbs, bigger claws and antlers, a re-posed slash, and a 0.95 scale to fit the height.

@@ -1,0 +1,5 @@
+- Built a ~5.15 m tall forest warden in Blender 5.2 (headless Python): braided bark limbs/torso from twisting tube strands, faceted jittered stone plates (shoulder masses, gauntlets, knees, chunky feet), moss tufts, ivory curved claws, fungal shelves, amber emissive eyes and branching bark antlers. Feet clamped to Y=0 (glTF Y-up), width about 5 m.
+- One skinned mesh (~18k verts) with 5 materials using the prepared PBR maps (albedo, normal, roughness for stone, bark, moss, ivory) embedded in the GLB, with box/cylindrical UVs.
+- 17-bone armature (root, pelvis, spine, chest, neck, head, clavicles, arms, hands, thighs, shins, feet); limbs weighted by blended segment distance, plates and claws weighted rigidly.
+- Single animation "attack" (1.2 s): wind-up with torso coil and raised right arm, fast heavy slash with root lunge at impact, hold, recovery to rest pose at the final key.
+- Visual iterations: 4 render passes (v1 to v4) of 3/4, side, wind-up and impact views from the re-imported GLB. Fixes: oversized boxy rocks, then too much bark, then added limb cladding, thicker shelves, lowered antlers, clamped feet to the ground.

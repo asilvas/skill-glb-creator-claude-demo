@@ -1,0 +1,5 @@
+node_modules/
+**/tmp/cache/
+*.blend
+.cleanup-state.json
+.cleanup-lock

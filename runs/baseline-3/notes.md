@@ -1,0 +1,5 @@
+- Built a procedural forest warden in Blender 5.2 (build.py): braided bark limbs/torso, faceted stone plates, moss caps, ivory claws and fungal shelves, emissive amber eyes, antlers. About 4.57 m tall, feet on Y=0.
+- Four materials (stone, bark, moss, ivory) use the prepared albedo/normal/roughness maps with box-projected UVs; textures are embedded in the single GLB, plus a plain emissive eye material.
+- Skinned to a 19-bone armature (root, hips, spine, chest, neck, head, arms/forearms/hands, thighs/shins/feet) with chain-blended weights on limbs and rigid weights on plates.
+- One clip "attack" (~1.2 s, 30 fps, frames 1-37): anticipation (crouch, right arm raised and back), impact (lunge, arm slammed down/forward), follow-through, return to rest pose.
+- 5 render/review rounds (render.py, EEVEE): v1 too stone-heavy and 5.4 m tall; v2 rescaled, thicker bark, larger moss; v3 more stone, bigger claws and mask; v4 checked animation frames; v5 fixed hidden eyes. Known gap: less detailed and less hunched than the reference.

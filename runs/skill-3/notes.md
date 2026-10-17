@@ -1,0 +1,5 @@
+- Built a procedural forest warden (~4.9 m tall, grounded at Y=0, ~21.8k tris) in glb-creator: braided bark rope limbs/torso, fractured stone plates and shoulder boulders, moss patches, ivory claws and shoulder fungus shelves, amber emissive eyes, branching bark antlers.
+- All four prepared PBR sets (stone, bark, moss, ivory: albedo/normal/roughness) are embedded in the single GLB with UVs from the library shapes.
+- Skeleton of 16 joints (Root, Hips, Chest, Head, per-side Shoulder/Elbow/Hand/Thigh/Shin/Foot), rigid per-bone binding; Root is scaled 0.85 to hit target height.
+- One clip "attack" (1.2 s): wind-up with arm raised back, hold, fast slash with torso/hip/head twist, recovery to rest pose (start == end). Khronos validation: 0 errors, 0 warnings.
+- Visual iterations: 4 renders viewed, 3 refinement passes (stone-heavy blockout -> bark/claw/plate rebalance -> head/shoulder/antler reproportion -> visible eyes, moss, fungus). Recipe saved as warden-recipe.ts.

@@ -1,0 +1,5 @@
+- Built a hunched, hulking forest warden with glb-creator: braided bark torso/limbs, fractured stone plates (shoulder boulders, chest, knees, forearms), lumpy moss clumps, ivory claws and fungal shelves, amber eyes, branching antlers.
+- Textured with stone/bark/moss/ivory PBR maps (albedo, normal, roughness) embedded in the GLB (12 textures); bark and moss lightly tinted. Khronos validation: 0 errors, 0 warnings; ~17k triangles.
+- 16-joint skeleton (Root, Hips, Chest, Head, Shoulder/Elbow/Hand L+R, Thigh/Shin/Foot L+R); one clip "attack", 1.2 s: right-arm wind-up with torso twist, heavy slash at ~0.55 s, recovery to rest pose.
+- Grounded at Y=0; body ~4.7 m, antler tips ~5.5 m (slightly above target).
+- 4 visual iterations: blockout (too much stone), plate scale/texture tints, moss clumps instead of discs, final antler/moss tuning. Remaining gaps vs reference: less organic/braided and less fractured than the concept art.

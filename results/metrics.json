@@ -1,0 +1,28 @@
+{
+  "model": "sonnet (claude-sonnet-5-5)",
+  "parallelism": 4,
+  "runs": {
+    "baseline-1": { "arm": "blender-cli", "tokens": 112745, "toolUses": 26, "seconds": 337.2, "iterations": 5, "quality": 5.5, "qualityNotes": "Readable creature, antlers/claws/moss present; icosphere boulders look blobby; clean slash arc" },
+    "baseline-2": { "arm": "blender-cli", "tokens": 126345, "toolUses": 29, "seconds": 443.1, "iterations": 3, "quality": 5, "qualityNotes": "Good hunched gorilla stance and braided limbs; head buried, antlers tiny; crouching slash reads oddly" },
+    "baseline-3": { "arm": "blender-cli", "tokens": 103246, "toolUses": 22, "seconds": 274.3, "iterations": 5, "quality": 4, "qualityNotes": "Rock pile with weak anatomy; stretched spike glitch on the slash arm mid-clip" },
+    "baseline-4": { "arm": "blender-cli", "tokens": 105799, "toolUses": 22, "seconds": 299.6, "iterations": 4, "quality": 3.5, "qualityNotes": "Boxy cube plates, cluttered silhouette, head unreadable; animation works" },
+    "skill-1": { "arm": "glb-creator-v2", "tokens": 89095, "toolUses": 17, "seconds": 157.2, "iterations": 3, "quality": 6.5, "qualityNotes": "Clean silhouette, visible amber eyes, fungal shelves, good slash arc" },
+    "skill-2": { "arm": "glb-creator-v2", "tokens": 92553, "toolUses": 21, "seconds": 136.2, "iterations": 4, "quality": 7, "qualityNotes": "Best of batch: rich moss, braided torso, readable head, strong wind-up pose" },
+    "skill-3": { "arm": "glb-creator-v2", "tokens": 93463, "toolUses": 23, "seconds": 149.1, "iterations": 4, "quality": 6, "qualityNotes": "Readable, eyes visible, good animation; blobby mushroom shoulders" },
+    "skill-4": { "arm": "glb-creator-v2", "tokens": 119932, "toolUses": 29, "seconds": 245.7, "iterations": 7, "quality": 5, "qualityNotes": "Darker and messier; odd open-rock head; animation works; agent lost a cycle to a self-inflicted regex bug" },
+    "skillv3-1": { "arm": "glb-creator-v3", "tokens": 87783, "toolUses": 14, "seconds": 118.6, "iterations": 3, "quality": 6, "qualityNotes": "Organic mossy surfaces, readable head and eyes; square column-like silhouette" },
+    "skillv3-2": { "arm": "glb-creator-v3", "tokens": 80861, "toolUses": 13, "seconds": 89.5, "iterations": 3, "quality": 7, "qualityNotes": "Good antlers, moss accents, fungal shelves, braided torso, strong slash arc" },
+    "skillv3-3": { "arm": "glb-creator-v3", "tokens": 80884, "toolUses": 12, "seconds": 90.1, "iterations": 3, "quality": 7, "qualityNotes": "Braided rope limbs, moss bands, big ivory claws, readable face, good poses" },
+    "skillv3-4": { "arm": "glb-creator-v3", "tokens": 81881, "toolUses": 13, "seconds": 95.2, "iterations": 3, "quality": 6, "qualityNotes": "Readable with good antlers and mushroom stacks; slightly messy claw spikes mid-clip" },
+    "skillv4-1": { "arm": "glb-creator-v4", "tokens": 82129, "toolUses": 13, "seconds": 106.2, "iterations": 3, "quality": 7, "qualityNotes": "Moss clumps everywhere, braided arms, readable amber-eyed head, clean slash phases" },
+    "skillv4-2": { "arm": "glb-creator-v4", "tokens": 81907, "toolUses": 16, "seconds": 100.8, "iterations": 3, "quality": 6.5, "qualityNotes": "Good braid texture and proportions; claws tucked oddly at rest; strong impact pose" },
+    "skillv4-3": { "arm": "glb-creator-v4", "tokens": 81241, "toolUses": 13, "seconds": 96.2, "iterations": 3, "quality": 7, "qualityNotes": "Clear braided rope limbs, big antlers, amber eyes, moss caps; good animation" },
+    "skillv4-4": { "arm": "glb-creator-v4", "tokens": 83045, "toolUses": 15, "seconds": 93.6, "iterations": 4, "quality": 5.5, "qualityNotes": "Stone-heavy with buried eyes; nicely hunched attack arc" }
+  },
+  "armSummary": {
+    "blender-cli":    { "label": "Blender 5.2 headless CLI", "meanTokens": 112034, "meanSeconds": 338.6, "meanToolUses": 24.8, "meanQuality": 4.5 },
+    "glb-creator-v2": { "label": "skill v2 (first revamp)",  "meanTokens": 98761,  "meanSeconds": 172.1, "meanToolUses": 22.5, "meanQuality": 6.1 },
+    "glb-creator-v3": { "label": "skill v3 (+dims, scale, pitfalls)", "meanTokens": 82852, "meanSeconds": 98.4, "meanToolUses": 13.0, "meanQuality": 6.5 },
+    "glb-creator-v4": { "label": "skill v4 (final; +tube ergonomics)", "meanTokens": 82081, "meanSeconds": 99.2, "meanToolUses": 14.3, "meanQuality": 6.5 }
+  }
+}

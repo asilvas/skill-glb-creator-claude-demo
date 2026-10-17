@@ -1,0 +1,5 @@
+- Built a procedural forest warden in glb-creator: stone-plate armor, braided bark limbs, moss patches, ivory claws and fungal shelves, amber emissive eyes, branching antlers.
+- Embedded stone/bark/moss/ivory PBR maps (albedo, normal, roughness); about 4.6 m tall, grounded at Y=0, about 25k triangles, Khronos 0 errors.
+- 14-joint skeleton (Root, Hips, Chest, Head, shoulders, elbows, hands, thighs, shins); each shape is rigidly bound to one bone.
+- One clip "attack", 1.2 s: wind-up, heavy left-arm slash with torso twist, recovery to the rest pose.
+- 4 builds, 3 sheets compared to the reference (the first showed a blobby, too-tall shape; fixes were narrower torso, wider stance and arms, smaller stone plates on limbs, and rescale). Weaknesses: shapes are blockier and darker than the reference, and moss is sparse.

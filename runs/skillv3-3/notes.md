@@ -1,0 +1,5 @@
+- Built a hulking forest warden procedurally with the glb-creator skill (recipe: glb-creator/tmp/monster.ts): braided bark-root limbs/torso, fractured stone plates and boulder shoulders, moss patches, ivory fungal shelves and long curved ivory claws, amber emissive eyes, branching antlers.
+- Textured with the supplied stone/bark/moss/ivory PBR maps (albedo, normal, roughness) embedded in the GLB (12 textures, ~8.7 MB); Khronos validation 0 errors, 0 warnings.
+- Skeleton of 17 joints (Root, Hips, Chest, Neck, Head, shoulders, elbows, hands, thighs, knees, feet); single clip "attack", 1.2 s: wind-up (arm raised back, torso twisted), heavy slash to impact at ~0.62 s, recovery back to the rest pose.
+- Height 4.61 m (4.84 m with clip), grounded at minY=0, about 27.9k triangles.
+- 3 visual iterations on the contact sheet (blockout too stony/tall -> rescaled, bigger claws, more moss, thinner plates -> broke up back plates and added exposed braided roots). Not matched: the reference's hunched posture and finer detail.

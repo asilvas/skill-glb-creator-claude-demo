@@ -1,0 +1,5 @@
+- Built a procedural forest warden: hunched, ~5 m tall (incl. antlers), twisted braided bark limbs/torso under fractured stone plates, moss patches, ivory fungal shelves, curved ivory claws, amber emissive eyes, branching bark antlers.
+- Textured with the prepared stone/bark/moss/ivory PBR maps (albedo + normal + roughness), embedded in the single GLB (12 textures); Khronos validation 0 errors/0 warnings.
+- 22-joint skin (Root, Hips, Spine, Chest, Neck, Head, shoulders/arms/hands, legs/feet, antlers); grounded at Y=0.
+- One clip "attack" (1.2 s): right arm raised overhead with torso wind-up (anticipation), fast downward slash at ~0.62 s (impact), follow-through and return to rest pose at 1.2 s.
+- 7 visual iterations via the contact sheet: fixed dark/low-contrast materials, head buried in shoulders (pushed forward, eyes exposed), a coordinate bug that displaced limbs, height (6.0 m to ~5 m), moss/chest plate/antler balance. Known gap: surface still darker and blockier than the reference.

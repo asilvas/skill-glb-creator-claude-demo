@@ -1,0 +1,6 @@
+- Built a hulking forest warden procedurally (glb-creator recipe, ~21k tris): braided helical bark-root limbs, fractured stone plates and boulder shoulders, moss patches, ivory fungal shelves and claws, amber emissive eyes, branching antlers.
+- Embedded all four supplied PBR sets (stone, bark, moss, ivory: albedo/normal/roughness) with generated UVs; GLB is about 8 MB and passes Khronos validation with 0 errors and 0 warnings.
+- 16-joint skeleton (Root, Hips, Chest, Head, plus upper arm, forearm, hand, thigh, shin and foot on each side); each part is rigidly bound to one bone.
+- One clip, "attack" (1.2 s): the right arm winds up back and out with a torso twist (anticipation), slashes down across the body (impact at about 0.7 s), then recovers to the rest pose at the end.
+- Height is 4.61 m, grounded at minY=0. I did 3 visual iterations (contact sheet viewed each time): the first fixed oversize (5.5 m, scaled to 0.84), a narrow stance and tiny claws; the second slimmed braids and plates to show more root.
+- Known gaps: the silhouette is blockier and less organic than the reference, and the legs and arms are rigid per-bone shapes.
